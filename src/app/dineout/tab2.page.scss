@@ -1,0 +1,165 @@
+ion-toolbar {
+    --background: var(--ion-color-primary);
+    --color: var(--ion-color-secondary-contrast);
+}
+
+ion-toolbar ion-menu-button {
+    color: var(--ion-color-secondary-contrast);
+}
+.ion-content-custom {
+    --padding-top: 0; /* Set top padding to 0 */
+  }
+  
+.swiper-container {
+    width: 100%;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .swiper-slide {
+    position: relative; /* Add this to establish a stacking context */
+  }
+  
+  .tile {
+    width: 120.33px; /* Set your desired tile width */
+    height: 120.33px; /* Set your desired tile height */
+    background-color: #fceadb;
+    ;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .tile img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+.rounded-image {
+    border-radius: 10px; /* Adjust the border-radius value to control the roundness of the corners */
+  }
+
+  .food-item-content {
+    display: flex;
+    align-items: center;
+  }
+  
+
+.food-item {
+    position: relative; /* Set the parent container to relative positioning */
+  }
+  
+  .delivery-time {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 15%;
+    padding: 4px 8px;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    z-index: 1;
+  }  
+  
+  
+  
+.offer {
+    text-align: center; /* Center the label text */
+    margin-top: 5px; /* Add some spacing between the image and label */
+    font-size: 14px; /* Adjust the font size as needed */
+    font-weight: 600;
+    color:red;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.food-list {
+    flex: 1; /* Fill available space */
+    margin: 22px 10px 0;
+    /* Add any other styles for the food list */
+}
+.example-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.yellow-star {
+  color: #FFC300; /* Change the color of the star to yellow */
+  font-size: 24px; /* Adjust the size of the star */
+  vertical-align: middle;
+}
+.rating-number {
+  font-size: 16px; /* Adjust the size of the rating number */
+  margin-left: 5px; /* Add spacing between the star and the rating number */
+  vertical-align: middle;
+}
+
+ion-menu ion-title {
+  background-color: #fff; /* Your desired color */
+  color: #000; /* Text color */
+}
+
+.header-color{
+  --background: #c75b01;
+  height: auto; /* Adjust the header height as needed */
+  display: flex;
+  align-items: center; /* Center vertically */
+}
+
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px;
+}
+
+.avatar {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Adjust the size as needed */
+  margin-right: 16px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.email {
+  font-size: 16px;
+  color: #000; /* Adjust the color as needed */
+}
+ion-menu ion-list ion-item {
+  font-size: 18px; /* Your desired font size */
+  min-height: 60px; /* Your desired height */
+}
+#logout-list{
+  position: absolute;
+  bottom: 0;
+  font-size:130px;
+  z-index: 999;
+}
+.custom-logout-item {
+  border: none;
+  font-size:130px;
+
+}

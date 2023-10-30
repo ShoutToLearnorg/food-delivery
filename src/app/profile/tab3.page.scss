@@ -1,0 +1,65 @@
+ .header-color{
+    --background: #c75b01;
+    height: auto; /* Adjust the header height as needed */
+    display: flex;
+    align-items: center; /* Center vertically */
+  }
+  
+
+  .profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px;
+  }
+  
+  .avatar {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    margin-right: 16px;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .name {
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .email {
+    font-size: 16px;
+    color: #fff; /* Adjust the color as needed */
+  }
+  
+
+  .profile-container {
+    text-align: center; /* Center the content horizontally */
+  }
+  
+  .centered-text {
+    font-size: 30px;
+    text-align: center; /* Center the text horizontally */
+    margin-top: 1px; /* Adjust the top margin as needed */
+  }
+  .centered-p {
+    text-align: center; /* Center the text horizontally */
+  }
+
+  .border-container {
+    border-top: 1px solid #a4a4a4; /* Adjust color and border width as needed */
+    width: 100%;
+    text-align: center; /* Center the text horizontally */
+    padding: 20px 0; /* Adjust padding as needed */
+  }
+  
+  ion-item {
+    min-height: 80px; /* Adjust the value to set the desired minimum height */
+  }
+  .description {
+    white-space: normal; /* Allows text to wrap within the container */
+    color:#ada8a8;
+  }
